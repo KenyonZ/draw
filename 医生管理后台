@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-12T02:51:53.273Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="M5Y0S7gyvINyUWW5p838" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-12T02:52:04.323Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="ICpU6QF6T7UNuJuX66Ru" version="14.6.11" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2916" dy="1053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -326,61 +326,61 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZpG784h4S_QPDH4JUXWV-108" value="wz_switch" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="50" width="320" height="220" as="geometry" />
+          <mxGeometry x="610" y="50" width="520" height="220" as="geometry" />
         </mxCell>
         <mxCell id="ZpG784h4S_QPDH4JUXWV-109" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="ZpG784h4S_QPDH4JUXWV-108">
-          <mxGeometry y="30" width="320" height="30" as="geometry" />
+          <mxGeometry y="30" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZpG784h4S_QPDH4JUXWV-110" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="ZpG784h4S_QPDH4JUXWV-109">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZpG784h4S_QPDH4JUXWV-111" value="id int NOT NULL  AUTO_INCREMENT" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="ZpG784h4S_QPDH4JUXWV-109">
-          <mxGeometry x="30" width="290" height="30" as="geometry" />
+          <mxGeometry x="30" width="490" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZpG784h4S_QPDH4JUXWV-112" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ZpG784h4S_QPDH4JUXWV-108">
-          <mxGeometry y="60" width="320" height="30" as="geometry" />
+          <mxGeometry y="60" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZpG784h4S_QPDH4JUXWV-113" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="ZpG784h4S_QPDH4JUXWV-112">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZpG784h4S_QPDH4JUXWV-114" value="switch tinyint(2) NOT NULL COMMENT &#39;开关状态 0 关闭 1启用&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="ZpG784h4S_QPDH4JUXWV-112">
-          <mxGeometry x="30" width="290" height="30" as="geometry" />
+          <mxGeometry x="30" width="490" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZpG784h4S_QPDH4JUXWV-115" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ZpG784h4S_QPDH4JUXWV-108">
-          <mxGeometry y="90" width="320" height="30" as="geometry" />
+          <mxGeometry y="90" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZpG784h4S_QPDH4JUXWV-116" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="ZpG784h4S_QPDH4JUXWV-115">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZpG784h4S_QPDH4JUXWV-117" value="type tinyint(2) NOT NULL COMMENT &#39;1 问诊排班类型（0 周排班 1 日排班）&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="ZpG784h4S_QPDH4JUXWV-115">
-          <mxGeometry x="30" width="290" height="30" as="geometry" />
+          <mxGeometry x="30" width="490" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZpG784h4S_QPDH4JUXWV-118" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ZpG784h4S_QPDH4JUXWV-108">
-          <mxGeometry y="120" width="320" height="30" as="geometry" />
+          <mxGeometry y="120" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZpG784h4S_QPDH4JUXWV-119" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="ZpG784h4S_QPDH4JUXWV-118">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZpG784h4S_QPDH4JUXWV-120" value="del_flag tinyint(1) DEFAULT  0 COMMENT &#39;删除标志 0 有效 1删除&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="ZpG784h4S_QPDH4JUXWV-118">
-          <mxGeometry x="30" width="290" height="30" as="geometry" />
+          <mxGeometry x="30" width="490" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZpG784h4S_QPDH4JUXWV-121" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ZpG784h4S_QPDH4JUXWV-108">
-          <mxGeometry y="150" width="320" height="30" as="geometry" />
+          <mxGeometry y="150" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZpG784h4S_QPDH4JUXWV-122" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="ZpG784h4S_QPDH4JUXWV-121">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZpG784h4S_QPDH4JUXWV-123" value="create_time timestamp DEFAULT CURRENT_TIMESTAMP COMMENT &#39;创建时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="ZpG784h4S_QPDH4JUXWV-121">
-          <mxGeometry x="30" width="290" height="30" as="geometry" />
+          <mxGeometry x="30" width="490" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZpG784h4S_QPDH4JUXWV-124" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ZpG784h4S_QPDH4JUXWV-108">
-          <mxGeometry y="180" width="320" height="30" as="geometry" />
+          <mxGeometry y="180" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZpG784h4S_QPDH4JUXWV-125" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="ZpG784h4S_QPDH4JUXWV-124">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZpG784h4S_QPDH4JUXWV-126" value="update_time timestamp DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT &#39;更新时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="ZpG784h4S_QPDH4JUXWV-124">
-          <mxGeometry x="30" width="290" height="30" as="geometry" />
+          <mxGeometry x="30" width="490" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-05-14T06:56:11.126Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="4jzqvVOdT0Iw7UuiXECl" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-16T05:25:56.772Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="WL0Vbpuw0tEFEpFHXrbg" version="14.6.11" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2916" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZpG784h4S_QPDH4JUXWV-1" value="问诊医生日排班（wz_ysrpb）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+        <mxCell id="ZpG784h4S_QPDH4JUXWV-1" value="问诊医生日排班（base_medicine.wz_ysrpb）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
           <mxGeometry x="-360" y="380" width="380" height="430" as="geometry" />
         </mxCell>
         <mxCell id="ZpG784h4S_QPDH4JUXWV-2" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="ZpG784h4S_QPDH4JUXWV-1" vertex="1">
@@ -124,7 +124,7 @@
         <mxCell id="ZpG784h4S_QPDH4JUXWV-40" value="update_time timestamp DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT &#39;更新时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="ZpG784h4S_QPDH4JUXWV-38" vertex="1">
           <mxGeometry x="30" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZpG784h4S_QPDH4JUXWV-41" value="问诊医生周排班（wz_yszpb）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+        <mxCell id="ZpG784h4S_QPDH4JUXWV-41" value="问诊医生周排班（base_medicine.wz_yszpb）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="370" width="320" height="430" as="geometry" />
         </mxCell>
         <mxCell id="ZpG784h4S_QPDH4JUXWV-42" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="ZpG784h4S_QPDH4JUXWV-41" vertex="1">
@@ -244,7 +244,7 @@
         <mxCell id="ZpG784h4S_QPDH4JUXWV-80" value="update_time timestamp DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT &#39;更新时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="ZpG784h4S_QPDH4JUXWV-78" vertex="1">
           <mxGeometry x="30" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZpG784h4S_QPDH4JUXWV-81" value="问诊班次（wz_bc）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+        <mxCell id="ZpG784h4S_QPDH4JUXWV-81" value="问诊班次（base_medicine.wz_bc）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="10" width="320" height="280" as="geometry" />
         </mxCell>
         <mxCell id="ZpG784h4S_QPDH4JUXWV-82" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="ZpG784h4S_QPDH4JUXWV-81" vertex="1">
@@ -325,7 +325,7 @@
         <mxCell id="ZpG784h4S_QPDH4JUXWV-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="ZpG784h4S_QPDH4JUXWV-54" target="ZpG784h4S_QPDH4JUXWV-82" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZpG784h4S_QPDH4JUXWV-127" value="wz_switch" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+        <mxCell id="ZpG784h4S_QPDH4JUXWV-127" value="问诊排班类型(base_medicine.wz_switch)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="50" width="500" height="220" as="geometry" />
         </mxCell>
         <mxCell id="ZpG784h4S_QPDH4JUXWV-128" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="ZpG784h4S_QPDH4JUXWV-127" vertex="1">
@@ -382,7 +382,7 @@
         <mxCell id="ZpG784h4S_QPDH4JUXWV-145" value="update_time timestamp DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT &#39;更新时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="ZpG784h4S_QPDH4JUXWV-143" vertex="1">
           <mxGeometry x="30" width="470" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="d4fzXSbqDqOtJSr-yJPb-1" value="药店信息表 (cf_ydxx)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+        <mxCell id="d4fzXSbqDqOtJSr-yJPb-1" value="药店信息表 (base_common.cf_ydxx)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
           <mxGeometry x="-420" y="900" width="320" height="340" as="geometry" />
         </mxCell>
         <mxCell id="d4fzXSbqDqOtJSr-yJPb-2" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="d4fzXSbqDqOtJSr-yJPb-1">
@@ -475,7 +475,7 @@
         <mxCell id="d4fzXSbqDqOtJSr-yJPb-31" value="update_time timestamp DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT &#39;更新时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="d4fzXSbqDqOtJSr-yJPb-29">
           <mxGeometry x="30" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="d4fzXSbqDqOtJSr-yJPb-32" value="药店药品信息表 (cf_ydypxx)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+        <mxCell id="d4fzXSbqDqOtJSr-yJPb-32" value="药店药品信息表 (base_common.cf_ydypxx)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="890" width="320" height="250" as="geometry" />
         </mxCell>
         <mxCell id="d4fzXSbqDqOtJSr-yJPb-33" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="d4fzXSbqDqOtJSr-yJPb-32">
@@ -541,7 +541,7 @@
         <mxCell id="d4fzXSbqDqOtJSr-yJPb-53" value="update_time timestamp DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT &#39;更新时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="d4fzXSbqDqOtJSr-yJPb-51">
           <mxGeometry x="30" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="d4fzXSbqDqOtJSr-yJPb-54" value="药品信息表 (cf_hlwyy_ypxx)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+        <mxCell id="d4fzXSbqDqOtJSr-yJPb-54" value="药品信息表 (base_common.cf_hlwyy_ypxx)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
           <mxGeometry x="-35" y="1200" width="460" height="670" as="geometry" />
         </mxCell>
         <mxCell id="d4fzXSbqDqOtJSr-yJPb-55" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="d4fzXSbqDqOtJSr-yJPb-54">

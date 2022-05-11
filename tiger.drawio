@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T05:05:50.505Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="Tou1j-7RPz40TLT45nQ4" version="17.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T05:11:35.049Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="RrG-pUkFfJ2uicWn5_oo" version="17.1.1" type="github">
   <diagram id="bhJ_dCEcqBeLiY0SfNMg" name="第 1 页">
     <mxGraphModel dx="2013" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
           <mxGeometry x="145" y="315" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZUNlMB66Ip9_6zSFA5tc-23" value="向TE发起增量订阅命令" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="130" y="550" width="140" height="20" as="geometry" />
+          <mxGeometry x="130" y="530" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZUNlMB66Ip9_6zSFA5tc-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZUNlMB66Ip9_6zSFA5tc-27" target="ZUNlMB66Ip9_6zSFA5tc-16">
           <mxGeometry relative="1" as="geometry" />
@@ -78,7 +78,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZUNlMB66Ip9_6zSFA5tc-32" value="获取增量执行任务" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="275" width="120" height="60" as="geometry" />
+          <mxGeometry x="-220" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZUNlMB66Ip9_6zSFA5tc-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZUNlMB66Ip9_6zSFA5tc-46" target="ZUNlMB66Ip9_6zSFA5tc-2">
           <mxGeometry relative="1" as="geometry" />
@@ -112,6 +112,26 @@
         </mxCell>
         <mxCell id="ZUNlMB66Ip9_6zSFA5tc-59" value="TE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="810" y="645" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUNlMB66Ip9_6zSFA5tc-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.038;entryY=0.27;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="1" source="ZUNlMB66Ip9_6zSFA5tc-62" target="ZUNlMB66Ip9_6zSFA5tc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUNlMB66Ip9_6zSFA5tc-68" value="未存在全量执行任务时，下发任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="ZUNlMB66Ip9_6zSFA5tc-66">
+          <mxGeometry x="0.0926" y="-3" relative="1" as="geometry">
+            <mxPoint x="-13" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZUNlMB66Ip9_6zSFA5tc-62" value="定时获取全量执行任务" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUNlMB66Ip9_6zSFA5tc-74" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=12;" edge="1" parent="1" source="ZUNlMB66Ip9_6zSFA5tc-17" target="ZUNlMB66Ip9_6zSFA5tc-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="370" as="sourcePoint" />
+            <mxPoint x="-40" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="200" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

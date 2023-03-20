@@ -1,1 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-03-20T09:03:51.257Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.0.6" etag="yiXEWPn1hDvF3lE0J1V9" type="github"><diagram name="第 1 页" id="lzMdcEoCeIwY4Nh2bU0P">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-20T09:09:29.857Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="FR_VliPMsKnclLkITZ4q" version="21.0.6" type="github">
+  <diagram name="第 1 页" id="lzMdcEoCeIwY4Nh2bU0P">
+    <mxGraphModel dx="1674" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Zh-p1OsTPBcuEK6SASQ2-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zh-p1OsTPBcuEK6SASQ2-1" target="Zh-p1OsTPBcuEK6SASQ2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zh-p1OsTPBcuEK6SASQ2-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zh-p1OsTPBcuEK6SASQ2-1" target="Zh-p1OsTPBcuEK6SASQ2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zh-p1OsTPBcuEK6SASQ2-1" value="已有预警地址" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="314" y="110" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Zh-p1OsTPBcuEK6SASQ2-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zh-p1OsTPBcuEK6SASQ2-2" target="Zh-p1OsTPBcuEK6SASQ2-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zh-p1OsTPBcuEK6SASQ2-2" value="填写预警地址" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="304" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zh-p1OsTPBcuEK6SASQ2-4" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="235" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zh-p1OsTPBcuEK6SASQ2-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zh-p1OsTPBcuEK6SASQ2-5" target="Zh-p1OsTPBcuEK6SASQ2-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="544" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="544" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zh-p1OsTPBcuEK6SASQ2-5" value="预警向导" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="484" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zh-p1OsTPBcuEK6SASQ2-7" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="135" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zh-p1OsTPBcuEK6SASQ2-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zh-p1OsTPBcuEK6SASQ2-10" target="Zh-p1OsTPBcuEK6SASQ2-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zh-p1OsTPBcuEK6SASQ2-10" value="连通性测试" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="324" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Zh-p1OsTPBcuEK6SASQ2-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zh-p1OsTPBcuEK6SASQ2-12" target="Zh-p1OsTPBcuEK6SASQ2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zh-p1OsTPBcuEK6SASQ2-12" value="填写预警通知人姓名&lt;br&gt;填写预警通知手机号&lt;br&gt;选择预警task" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="304" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zh-p1OsTPBcuEK6SASQ2-14" value="通过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="545" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zh-p1OsTPBcuEK6SASQ2-15" value="完成预警配置" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="304" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

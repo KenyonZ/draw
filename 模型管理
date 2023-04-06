@@ -1,17 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T06:35:53.074Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="b2xgbJk6kvqpYJcJO61n" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-06T06:40:45.857Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="RH1TiTzzOAmzOJfpN12C" version="21.1.4" type="github">
   <diagram name="第 1 页" id="n9t5J4JgW4ZlLQrf_Kfm">
     <mxGraphModel dx="2501" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TUqZp7AN12wpKbDEfB7D-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TUqZp7AN12wpKbDEfB7D-7" target="TUqZp7AN12wpKbDEfB7D-33" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TUqZp7AN12wpKbDEfB7D-49" value="路径1:模型数据筛选" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TUqZp7AN12wpKbDEfB7D-38" vertex="1" connectable="0">
-          <mxGeometry x="0.4292" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="TUqZp7AN12wpKbDEfB7D-7" value="mongodb" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="140" y="150" width="60" height="80" as="geometry" />
         </mxCell>
@@ -27,7 +19,7 @@
         <mxCell id="TUqZp7AN12wpKbDEfB7D-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="TUqZp7AN12wpKbDEfB7D-11" target="TUqZp7AN12wpKbDEfB7D-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TUqZp7AN12wpKbDEfB7D-52" value="路径2:模型数据筛选" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TUqZp7AN12wpKbDEfB7D-51" vertex="1" connectable="0">
+        <mxCell id="TUqZp7AN12wpKbDEfB7D-52" value="模型数据筛选" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TUqZp7AN12wpKbDEfB7D-51" vertex="1" connectable="0">
           <mxGeometry x="0.0811" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -127,9 +119,6 @@
         <mxCell id="AYiq8EEFD46i0JWES2jz-2" value="订阅者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="230" y="910" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vMfnwu7zhwno4bJkrncY-9" value="路径1：模型发布平台发布的结果集从已有的mongodb 数仓中筛选需要的模型数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="370" y="760" width="460" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="vMfnwu7zhwno4bJkrncY-10" value="路径2：首先需要同步模型数据到关系型数据库，&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;在关系型数据仓中筛选模型数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="440" y="790" width="280" height="40" as="geometry" />
         </mxCell>
@@ -137,9 +126,9 @@
           <mxGeometry x="430" y="830" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vMfnwu7zhwno4bJkrncY-13" value="模型标准发布：订阅者发布的模型标准审核通过后在模型发布订阅平台正式发布，通知下级引擎开始创建模型流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="300" y="730" width="620" height="30" as="geometry" />
+          <mxGeometry x="300" y="750" width="620" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vMfnwu7zhwno4bJkrncY-15" value="模型结果集订阅：当模型创建完毕后模型订阅功能即可控制模型结果集开启订阅" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="vMfnwu7zhwno4bJkrncY-15" value="模型结果集订阅：当模型创建完毕后模型订阅平台即可控制模型结果集开启订阅" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="380" y="865" width="440" height="30" as="geometry" />
         </mxCell>
       </root>
